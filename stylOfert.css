@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+.dostepne-oferty{
+    text-align: center;
+}
+:root{
+    --glowny-kolor: #32a9e6;
+}
+body{
+    background-color: #f2f2f2;
+    margin: 0;
+    font-family: 'Poppins';
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.nawigacja{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding: 1em;
+}
+nav{
+    margin-right: 80%;
+    font-size: 1.2em;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown ul{
+    width: 300px;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 0px 12px 0px;
+    border-radius: 4px;
+    display: none;
+}
+.dropdown ul .lista{
+    padding: .3rem;
+}
+.dropdown ul .lista:hover{
+    background-color: #32a9e6;
+    border-radius: 4px;
+    color: #f2f2f2;
+}
+.dropdown ul .lista a{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown a:focus + ul,
+.dropdown ul:hover{
+    display: block;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.kontenern{
+    display: flex;
+    place-content: space-between;
+}
+.logo{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1.2em;
+}
+span{
+    color: var(--glowny-kolor);
+}
+.listani{
+    display: block;
+    font-size: 1.2em;
+    text-align: center;
+    color: black;
+}
+.logowanie{
+    background-color: var(--glowny-kolor);
+    border: 2px solid var(--glowny-kolor);
+    border-radius: 5em;
+    font-weight: bold;
+    padding-left: .3em;
+    padding-right: .3em;
+}
+.logowanie:hover{
+    background-color: white;
+    border: 2px solid var(--glowny-kolor);
+}
+.wszystko{
+    background-color: #20272e;
+    color: white;
+    padding: 2em 2em;
+}
+.loz{
+    padding-left: 1em;
+    width: 100px;
+    height: 100px;
+}
+.nazwa-oferty{
+    
+    font-size: 1.2em;
+    padding-left: .5em;
+    margin-left:2em ;
+}
+.dostepne-oferty{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.niebieskie-tło{
+    background-color: var(--glowny-kolor);
+    border-radius: 1em;
+    padding: 3em 3em;
+}
+.zdj-w-liscie-ofert{
+    width: 30%;
+    margin-top: 10px;
+}
+hr{
+   margin-left: 10%; 
+}
+.nazwa-w-liscie-ofert{
+    margin-top: 10px;
+    width: 45%;
+}
+blockquote{
+    width: 25%;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.stopka-w-ofertach{
+    width: 80px;
+    height: 50px;
+    background-color: #32a9e6;
+    border-radius: 5em;
+    margin-top: 7%;
+}
+.strzałka{
+    color: #f2f2f2;
+    font-size: 215%;
+    padding: 20%;
+}
+.stopka-w-ofertach:hover{
+    position: relative;
+    right: -5px;
+}
+.lista-ofert{
+    color: #20272e;
+    background-color: #f2f2f2;
+    padding: 5em ;
+    width: 25%;
+    margin: 10% ;
+    margin-left: 10%;
+    margin-top: 1%;
+    display: inline-flex;
+    border-radius: 2em;
+    text-align: center;
+}
+#dziewiąta-oferta{
+    margin-left: 32.5%;
+}
+.stopka{
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+.kontenerk{
+    display: flex;
+    margin-left: 80px;
+}
+.przycisk{
+    background-color: var(--glowny-kolor);
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    border-radius: 5em;
+    padding: 1em 2em;
+}
+.dni-otwarcia{
+    font-size: 1.2em;
+}
+.kontakt{
+    font-size: 1.2em;
+}
+.komentarze{
+    font-size: 1.2em;
+}
+label{
+    display: block;
+    margin-bottom: .5em;
+}
+textarea{
+    width: 100%;
+    padding: .8em;
+    margin-bottom: 1em;
+    border-radius: 1em;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 730px){
+    .wszystko{
+        text-align: center;
+    }
+    nav{
+        display: none;
+        margin: 0;
+        font-size: .6em;
+    }
+    
+    .lista-ofert{
+        position: unset;
+        color: #20272e;
+        background-color: #f2f2f2;
+        padding: 5em;
+        margin: 5% ;
+        margin-left: 5%;
+        margin-top: 0%;
+        display: block;
+        border-radius: 2em;
+        text-align: center;
+    }
+    #dziewiąta-oferta{
+        margin-left: 0%;
+    }
+    .zdj-w-liscie-ofert{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .loz{
+
+        position: unset;
+        margin-top: -100%;
+        padding: 0;
+        width: 60px;
+        height: 80px;
+    }
+    .nazwa-w-liscie-ofert{
+        position: unset;
+        text-align: right;
+        margin-left: -100%;
+        margin-top: 0%;
+        width: 100%;
+    }
+    .nazwa-oferty{
+        font-size: 1em;
+        padding-left: 0;
+        width: 100%;
+    }
+    hr {
+        margin-top: 5%;
+    }
+    blockquote{
+        display: none;
+    }
+    .stopka-w-ofertach{
+        margin-left: -2em;
+        width: 120px;
+        height: 50px;
+        background-color: #32a9e6;
+        border-radius: 5em;
+        margin-top: 1em;
+    }
+    .strzałka{
+        color: #f2f2f2;
+        font-size: 215%;
+        padding: 20%;
+    }
+    .stopka-w-ofertach:hover{
+        position: relative;
+        right: -5px;
+    }
+    .dropdown ul .lista{
+        padding: 1.5em;
+    }
+    .dropdown ul{
+        width: 200px;
+    }
+    .stopka{
+        position: relative;
+        padding: 2em;
+        margin-left: -23%;
+    }
+}
+@media only screen and (min-width: 1920px){
+    nav{
+        margin-right: 60%;
+        font-size: 1.2em;
+    }
+    .lista-ofert{
+        color: #20272e;
+        background-color: #f2f2f2;
+        padding: 5em ;
+        padding-right: 12em;
+        width: 20%;
+        margin: 2% ;
+        margin-left: 8%;
+        margin-top: 1%;
+        display: inline-flex;
+        border-radius: 2em;
+        text-align: center;
+    }
+    #dziewiąta-oferta{
+        margin-left: 32.5%;
+    }
+    .loz{
+        padding-left: 0;
+        width: 100px;
+        height: 100px;
+    }
+    .nazwa-oferty{
+        
+        font-size: 1.2em;
+        padding-left: 0;
+        margin-left: 1.2em ;
+    }
+    .zdj-w-liscie-ofert{
+        margin-left: -20px;
+        width: 30%;
+        margin-top: 10px;
+    }
+    hr{
+       margin-left: 12%; 
+    }
+    .nazwa-w-liscie-ofert{
+        margin-top: 10px;
+        width: 45%;
+    }
+    blockquote{
+        width: 25%;
+        font-size: 15px;
+        margin-top: 10px;
+        font-weight: bold;
+        margin-left: 7em;
+    }
+    .stopka-w-ofertach{
+        padding: 5%;
+        background-color: #32a9e6;
+        border-radius: 5em;
+        margin-top: 14%;
+    }
+    .strzałka{
+        color: #f2f2f2;
+        font-size: 215%;
+        padding: 10%;
+    }
+    .stopka-w-ofertach:hover{
+        position: relative;
+        right: -5px;
+    }
+}

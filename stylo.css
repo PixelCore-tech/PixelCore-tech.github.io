@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root{
+    --glowny-kolor: #32a9e6;
+}
+body{
+    background-color: #f2f2f2;
+    margin: 0;
+    font-family: 'Poppins';
+}
+a{
+    color: rgb(62, 62, 62);
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nawigacja{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    padding: 1em;
+}
+.kontenern{
+    display: flex;
+    place-content: space-between;
+}
+.logo{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1.2em;
+}
+.mobile-menu{
+    cursor: pointer;
+}
+span{
+    color: var(--glowny-kolor);
+}
+nav{
+    width: 70%;
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: #20272e;
+    height: 100vh;
+    padding: 1em;
+}
+.mobile-menu-zamknij{
+    float: right;
+    margin: .3em;
+    cursor: pointer;
+}
+.manu-btn{
+    display: block;
+}
+.pierwsza-listan{
+    margin-top: 3em;
+}
+.listani{
+    display: block;
+    padding: .2em;
+    font-size: 1.2em;
+    text-align: right;
+}
+.dostepne-oferty{
+    text-align: center;
+}
+.naprawa-oprogramowania{
+    width: 80%;
+    padding: 2em;
+}
+.lista-ofert{
+    padding: 1em;
+}
+.loz{
+    padding-left: 1em;
+    width: 100px;
+    height: 100px;
+}
+.nazwa-oferty{
+    text-align: center;
+    font-size: 1.2em;
+}
+.no-jeden{
+    width: 80%;
+    float: left;
+    display: flex;
+}
+.no-dwa{
+    width: 80%;
+    float: left;
+    display: flex;
+}
+.no-trzy{
+    width: 80%;
+    float: left;
+    display: flex;
+}
+.dostepne-ofertyd{
+    text-align: center;
+    padding-top: 255%;
+}
+.strony-www{
+    width: 80%;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+.lista-oferts{
+    padding: 1em;
+}
+.lozs{
+    padding-left: 1em;
+    width: 100px;
+    height: 100px;
+}
+.nazwa-ofertys{
+    text-align: center;
+    font-size: 1.2em;
+}
+.sw-jeden{
+    width: 80%;
+    float: left;
+    display: flex;
+}
+.sw-dwa{
+    width: 80%;
+    float: left;
+    display: flex;
+    margin-left: 15%;
+    text-align: center;
+}
+.dospepne-ofertyt{
+    text-align: center;
+    padding-top: 140%;
+}
+.naprawa-laptopow{
+    width: 80%;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+.lista-ofertn{
+    padding: 1em;
+}
+.lozn{
+    padding-left: 1em;
+    width: 100px;
+    height: 100px;
+}
+.nazwa-ofertyn{
+    text-align: center;
+    font-size: 1.2em;
+}
+.nl-jeden{
+    width: 80%;
+    float: left;
+    display: flex;
+}
+.nl-dwa{
+    width: 80%;
+    float: left;
+    display: flex;
+}
+.nl-trzy{
+    width: 80%;
+    float: left;
+    display: flex;
+}
+ .logowanie{
+    background-color: var(--glowny-kolor);
+    border: 2px solid var(--glowny-kolor);
+    border-radius: 5em;
+    font-weight: bold;
+    color: black;
+}
+.logowanie:hover{
+    background-color: white;
+    border: 2px solid var(--glowny-kolor);
+}
+@media only screen and (min-width: 730px){
+    .dostepne-oferty{
+        text-align: center;
+        font-size: 2em;
+    }
+    .naprawa-oprogramowania{
+        padding: 3em 2em;
+        padding-left: 5em;
+    }
+    .nazwa-oferty{
+        font-size: 1.8em;
+    }
+    .lista-ofert{
+        padding: 1em 2em;
+    }
+    .loz{
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+    blockquote{
+        font-size: 1.5em;
+    }
+    .no-jeden{
+        width: 100%;
+       
+        float: left;
+        display: flex;
+        text-align: center;
+    }
+    .no-dwa{
+        width: 100%;
+        
+        float: left;
+        display: flex;
+        text-align: center;
+    }
+    .no-trzy{
+        width: 100%;
+        float: left;
+        display: flex;
+        text-align: center;
+    }
+    .dostepne-ofertyd{
+        text-align: center;
+        font-size: 2em;
+        padding: 1%;
+    }
+    .strony-www{
+        padding: 3em 2em;
+        padding-left: 5em;
+    }
+    .nazwa-ofertys{
+        font-size: 1.8em;
+    }
+    .lista-oferts{
+        padding: 1em 2em;
+    }
+    .lozs{
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+    blockquote{
+        font-size: 1.5em;
+    }
+    .sw-jeden{
+        width: 100%;
+        float: left;
+        display: flex;
+        text-align: center;
+    }
+    .sw-dwa{
+        width: 100%;
+        float: left;
+        display: flex;
+        text-align: center;
+        padding-left: 3.4em;
+    }
+    .dospepne-ofertyt{
+        text-align: center;
+        font-size: 2em;
+        padding: 1%;
+    }
+    .naprawa-laptopow{
+        padding: 3em 2em;
+        padding-left: 5em;
+    }
+    .nazwa-ofertyn{
+        font-size: 1.8em;
+    }
+    .lista-ofertn{
+        padding: 1em 2em;
+    }
+    .lozn{
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+    .nl-jeden{
+        width: 100%;
+        float: left;
+        display: flex;
+        text-align: center;
+    }
+    .nl-dwa{
+        width: 100%;
+        float: left;
+        display: flex;
+        text-align: center;
+    }
+    .nl-trzy{
+        width: 100%;
+        float: left;
+        display: flex;
+        text-align: center;
+    }
+    
+}
+@media only screen and (min-width: 1030px){
+    
+    .dostepne-oferty{
+        text-align: center;
+        font-size: 2em;
+    }
+    .naprawa-oprogramowania{
+        padding: 3em 2em;
+        padding-left: 8%;
+    }
+    .nazwa-oferty{
+        font-size: 1.2em;
+    }
+    .lista-ofert{
+        padding: 1em 2em;
+        margin-left: 13%;
+    }
+    .loz{
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+    blockquote{
+        font-size: 1em;
+    }
+    .no-jeden{
+        width: 50%;
+        float: left;
+    }
+    .no-dwa{
+        width: 50%;
+        float: left;
+        display: flex;
+        text-align: center;
+    }
+    .no-trzy{
+        width: 50%;
+        float: left;
+        display: flex;
+        text-align: center;
+        padding-left: 24%;
+    }
+    .dostepne-ofertyd{
+        text-align: center;
+        font-size: 2em;
+        padding-top: 40%;
+    }
+    .strony-www{
+        padding: 3em 2em;
+        padding-left: 8%;
+    }
+    .nazwa-ofertys{
+        font-size: 1.2em;
+    }
+    .lista-oferts{
+        padding: 1em 2em;
+        margin-left: 10%;
+    }
+    .lozs{
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+    .sw-jeden{
+        width: 40%;
+        float: left;
+        display: flex;
+        text-align: center;
+        padding-left: 15%;
+    }
+    .sw-dwa{
+        margin: 0;
+        width: 12%;
+        float: left;
+        display: flex;
+        text-align: center;
+    }
+    .dospepne-ofertyt{
+        text-align: center;
+        font-size: 2em;
+        padding-top: 20%;
+    }
+    .naprawa-laptopow{
+        padding: 3em 2em;
+        padding-left: 8%;
+    }
+    .nazwa-ofertyn{
+        font-size: 1.2em;
+    }
+    .lista-ofertn{
+        padding: 1em 2em;
+    }
+    .lozn{
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+    .nl-jeden{
+        width: 50%;
+        float: left;
+        display: flex;
+        text-align: center;
+    }
+    .nl-dwa{
+        width: 50%;
+        float: left;
+        display: flex;
+        text-align: center;
+    }
+    .nl-trzy{
+        width: 50%;
+        float: left;
+        display: flex;
+        text-align: center;
+        padding-left: 24%;
+    }
+}
